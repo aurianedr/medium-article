@@ -1,0 +1,91 @@
+.body{
+  background-color: #fffbf5;
+  font-family: 'Lora', sans-serif;
+  font-weight: lighter;
+  color: #827e7e;
+  font-size: 25px;
+  line-height: 1,6;
+  margin: 0;
+}
+
+p{
+  font-size: 30px;
+  color: #444242;
+  letter-spacing : normal;
+}
+
+h1 {
+  color : #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 1,5;
+}
+
+.banner p{
+  font-size: 30px;
+  color: white;
+  font-style: italic;
+  font-weight: lighter;
+  opacity: 0.8;
+}
+
+h2 {
+  color: #f48c06;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 1,5;
+}
+
+.banner{
+  background-image: url(https://plus.unsplash.com/premium_photo-1721461835465-b979cacd3628?q=80&w=2938&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) ;
+  background-size : cover;
+  padding: 120px 0;
+}
+
+.container{
+  max-width: 700px;
+  margin: 50px auto;
+}
+
+.link-medium{
+  font-size: 30px;
+  color: #494949;
+  font-style: italic;
+  font-weight: lighter;
+  background-color: #fbc47b;
+}
+
+a{
+  text-decoration: none;
+  background: linear-gradient(#fad6a6, #fda430);
+}
+
+a:hover {
+  background: linear-gradient(#fbc47b, #ef5407);
+}
+
+@media(max-width: 992px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media(max-width: 576px) {
+  .container {
+    width: 300px;
+  }
+}
+
+@media(max-width: 768px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media(max-width: 1200px) {
+  .container {
+    width: 600px;
+  }
+}
